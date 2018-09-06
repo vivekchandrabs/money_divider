@@ -102,7 +102,13 @@ for i in num:
 	else:
 		d[i]=1
 
-for i,j in d.items():
-	print(i  ,"  x  ", j  )
 
+print(" \n")
+print("You have to pay")
+
+for i,j in d.items():
+	print("RS ",i  ,"  x  ", j ," NOS" )
+
+
+print(" \n")
 print(time.ctime())
